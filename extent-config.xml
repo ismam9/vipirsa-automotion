@@ -5,8 +5,8 @@
 		<theme>dark</theme>
 		<encoding>UTF-8</encoding>
 		<protocol>https</protocol>
-		<documentTitle>Auto - BM</documentTitle>
-		<reportName>Auto - BM</reportName>
+		<documentTitle>Prueba - Vipirsa</documentTitle>
+		<reportName>Prueba - Vipirsa</reportName>
 		<reportHeadline>Automation Report</reportHeadline>
 		<dateFormat>yyyy-MM-dd</dateFormat>
 		<timeFormat>HH:mm:ss</timeFormat>
