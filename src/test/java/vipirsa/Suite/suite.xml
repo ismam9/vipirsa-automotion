@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="vipirsaTest" verbose="0" parallel="none">
+	
+	<!-- El 'value' del primer parametro llamado browser, puede ser cambiado a 'firefox' y funcionará igual -->
+	<parameter name="browser" value="chrome" />
+	<parameter name="platform" value="windows" />
+	<parameter name="suitname" value="Suite Vipirsa 1" />
+	
+	<!-- <tests> -->
+	<test name="Vipirsa-V0.0.1">
+		
+		<classes>
+			<class name="vipirsa.Tests.Search"/>
+		</classes> 
+		
+	</test>
+</suite>

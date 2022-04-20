@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [vipirsaTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="suitname" value="Suite Vipirsa 1"/>
+  <parameter name="platform" value="windows"/>
+  <test thread-count="5" name="Vipirsa-V0.0.1(failed)" verbose="0">
+    <classes>
+      <class name="vipirsa.Tests.Search">
+        <methods>
+          <include name="getResult"/>
+          <include name="vipirsa"/>
+          <include name="setupDriver"/>
+          <include name="setupReport"/>
+          <include name="genReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- vipirsa.Tests.Search -->
+    </classes>
+  </test> <!-- Vipirsa-V0.0.1(failed) -->
+</suite> <!-- Failed suite [vipirsaTest] -->
