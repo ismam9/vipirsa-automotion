@@ -1,6 +1,8 @@
 # vipirsa-automotion
 Prueba Vipirsa Automotion
 
+Antes de todo, al importar el proyecto en Eclipse saldrán errores en el proyecto, por esto, es importante realizar un Maven -> Update proyect
+
 La configuración del entorno es la siguiente:
  - OS: Windows
  - BROWSER: WINDOWS
